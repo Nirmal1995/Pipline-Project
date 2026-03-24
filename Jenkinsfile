@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git url: 'file:///YOUR/LOCAL/PROJECT/PATH'
+                git url: 'E:\Virtual Machines\Study Material\Jenkins\Pipline Project'
             }
         }
 
